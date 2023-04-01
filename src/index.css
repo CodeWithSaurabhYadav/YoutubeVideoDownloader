@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.video{
+    max-width: 600px;
+}
+
+.searchBar{
+    min-width: 280px;
+    max-width: 400px;
+    padding: 0.5rem;
+    color: black;
+}
+
+@media (max-width: 600px){
+    .video{
+        width: 95vw;
+    }
+}
